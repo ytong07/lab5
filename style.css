@@ -1,0 +1,29 @@
+.bar{
+    fill: rgb(61, 33, 1);
+}
+
+.button{
+    background-color: burlywood;
+    border: rgb(61, 33, 1);
+}
+
+select {
+    border-color: rgb(61, 33, 1);
+}
+
+#group-by{
+    border-color: rgb(61, 33, 1);
+    scrollbar-arrow-color: rgb(61, 33, 1);;
+}
+
+.container{
+    color: rgb(61, 33, 1);
+}
+
+.title{
+    color: rgb(61, 33, 1);
+    font-weight: bold;
+}
+
+
+  
