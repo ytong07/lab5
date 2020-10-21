@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Update Pattern</title>
+
+    <!--Milligram CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+
+    <!--CSS file-->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--D3-->
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <!--JS file-->
+    <script defer src="script.js"></script>
+    
+  </head>
+  <body>
+    <h2>Coffee House Chains</h2>
+    <p>A ranking of selected leading coffee house chains worldwide</p>    
+    
+    
+    <div class="container">
+
+        <div class="row">
+          <div class="column column-10">
+              <label for="group-by">Group By</label>
+            </div>
+          <div class="column column-25">
+            <select id="group-by">
+                <option value="stores">Stores worldwide</option>
+                <option value="revenue">Revenue in billion U.S. dollars</option>
+            </select>
+          </div>
+          <div class="column column-20 column-offset-5">
+            <button class="button">Sort</button>
+          </div>
+        </div>
+      
+      </div>
+    <div class="chart">
+        <!-- You will append a SVG here-->
+    </div>
+  </body>
+</html>
